@@ -104,3 +104,8 @@ In order to run the tests
 
 If you installed `pytest-xdist`, you can also distribute the tests to multiple workers
 by running `pytest -n auto` or giving a specific number instead of `auto`
+
+## Acknowledgements
+
+This repo repackages code originally written by Chris Wong (https://github.com/ckw017/vader-sentiment-rust).  Thanks, Chris!
+
