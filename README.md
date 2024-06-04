@@ -77,7 +77,7 @@ select y.video_description, s.compound from youtube y, sentiment_tvf(y.video_des
 
 ## Building
 
-All the artifacts you need to use this extension should already be included pre-built in this repo.  However, if you wish to rebuild it, do the following.
+The `load_*` scripts in this repo should be sufficient to load the pre-built extension into SingleStore.  However, if you wish to rebuild it, do the following.
 
 1. Install Rust and Cargo
 2. Install the Rust `wasm32-wasi` target
