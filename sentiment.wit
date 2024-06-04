@@ -1,0 +1,11 @@
+record polarity-scores {
+  compound: float64,
+  positive: float64,
+  negative: float64,
+  neutral: float64,
+}
+
+sentiment: func(input: string) -> polarity-scores
+
+sentiment-tvf: func(input: string) -> list<polarity-scores>
+
